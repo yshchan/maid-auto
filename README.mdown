@@ -1,0 +1,9 @@
+Auto-configuration 
+==================
+
+When setting up Maid using 'maid-setup' be aware that, it takes the Maid sample rules file and renames it to be your default rules file. This means that when running Maid you will have to be aware that it doesn't run your rules but the default rules. To check if you want to keep these rules open Terminal and type 'maid -n', this will show all the rules. To edit them go to Finder and do the keyboard shortcut 'shift + command + G' and in the field type '~/.maid', then just edit the 'rules.rb' file for your needs. For more information on configuring Maid or learning to write Maid rules go to 'https://github.com/benjaminoakes/maid'. 
+
+Source Code
+===========
+
+The setup files have all been written in Ruby, so if you want to customize the source code for the files feel free to do so.
