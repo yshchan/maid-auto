@@ -2,6 +2,8 @@
 
 install = `sudo gem install maid`
 make = `maid sample`
-rename = File.rename( "~/.maid/rules.sample.rb", "~/.maid/rules.rb" )
 
-puts install + make + rename
+# Rename doesn't work.
+# rename = File.rename( "~/.maid/rules.sample.rb", "~/.maid/rules.rb" )
+
+puts install + make
