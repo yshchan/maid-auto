@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 
+# UNIX based commands in Ruby
+
 install = `sudo gem install maid`
-make = `maid sample`
+sample = `maid sample`
+rename = `cd ~/.maid; mv rules.sample.rb rules.rb`
 
-# Rename doesn't work.
-# rename = File.rename( "~/.maid/rules.sample.rb", "~/.maid/rules.rb" )
-
-puts install + make
+puts install + sample + rename
